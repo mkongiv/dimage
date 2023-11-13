@@ -1,7 +1,9 @@
 ## DiMage: The DIstributed Mapping GEnerator.
-## Official Artifact of the SC'23 paper: "Automatic Generation of Distributed-Memory Mappings for Tensor Computations".
-## Authors: Martin Kong, Raneem Abu Yosef, Atanas Rountev and P. Sadayappan.
-## DOI: https://dl.acm.org/doi/10.1145/3581784.3607096
+
+
+**Official Artifact of the SC'23 paper: "Automatic Generation of Distributed-Memory Mappings for Tensor Computations".**
+**Authors: Martin Kong, Raneem Abu Yosef, Atanas Rountev and P. Sadayappan.**
+**DOI: https://dl.acm.org/doi/10.1145/3581784.3607096**
 
 ### What is DiMage?
 
@@ -68,6 +70,7 @@ make mkl
 
 To cite DiMage's SC'23 paper, please use the following bibtex:
 
+```
 @inproceedings{10.1145/3581784.3607096,
 author = {Kong, Martin and Abu Yosef, Raneem and Rountev, Atanas and Sadayappan, P.},
 title = {Automatic Generation of Distributed-Memory Mappings for Tensor Computations},
@@ -83,4 +86,5 @@ numpages = {13},
 location = {Denver, CO, USA},
 series = {SC '23}
 }
+```
 
