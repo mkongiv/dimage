@@ -7,7 +7,7 @@
 
 ### What is DiMage?
 
-![DiMage Logo](DiMage-logo.png)
+![DiMage Logo](DiMage-logo-small.png)
 
 DiMage is a distributed-memory mapping generator for Directed Acyclic Graphs (DAGs) of tensor computations. Given the compact description of an input DAG, DiMage will find a communication efficient mapping that partitions both the data and computation of the DAG over a grid of processing elements (PEs) of a fixed dimensionality and size. DiMage will produce a non-linear formulation that is solved, in an iterative manner, using the Z3 SMT solver. After a solution is found, DiMage will proceed to generate MPI code matching the mapping definition. 
 
