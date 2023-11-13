@@ -1,9 +1,9 @@
-# DiMage: The DIstributed Mapping GEnerator.
-# Official Artifact of the SC'23 paper: "Automatic Generation of Distributed-Memory Mappings for Tensor Computations".
-# Authors: Martin Kong, Raneem Abu Yosef, Atanas Rountev and P. Sadayappan.
-# DOI: https://dl.acm.org/doi/10.1145/3581784.3607096
+## DiMage: The DIstributed Mapping GEnerator.
+## Official Artifact of the SC'23 paper: "Automatic Generation of Distributed-Memory Mappings for Tensor Computations".
+## Authors: Martin Kong, Raneem Abu Yosef, Atanas Rountev and P. Sadayappan.
+## DOI: https://dl.acm.org/doi/10.1145/3581784.3607096
 
-## What is DiMage?
+### What is DiMage?
 
 ![DiMage Logo](DiMage-logo.png)
 
@@ -14,7 +14,7 @@ Please refer to the [DiMage SC'23 paper](https://dl.acm.org/doi/10.1145/3581784.
 DiMage is still a research prototype in active development. Please report any issues found.
 
 
-## Installation
+### Installation
 
 Follow the following steps to create a Conda environment with Z3:
 
@@ -37,11 +37,11 @@ pip install z3-solver
 ```
 
 
-## Using DiMage
+### Using DiMage
 
 To use DiMage, activate first the Conda environment. Then, invoke DiMage:
 
-``
+```
 python dimage.py <input.rels> -procs=<G,P>
 ```
 
@@ -64,7 +64,7 @@ make mkl
 ```
 
 
-## Citation
+### Citation
 
 To cite DiMage's SC'23 paper, please use the following bibtex:
 
