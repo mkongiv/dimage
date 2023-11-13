@@ -1,4 +1,4 @@
-## DiMage: The DIstributed Mapping GEnerator.
+## DiMage: The DIstributed MApping GEnerator.
 
 
 **Official Artifact of the SC'23 paper: "Automatic Generation of Distributed-Memory Mappings for Tensor Computations".**
