@@ -36,6 +36,9 @@ conda activate ${DIMAGE_CONDA_ENV}
 
 pip install z3-solver
 
+mkdir code
+mv dimage-rt.? code/
+
 ```
 
 
